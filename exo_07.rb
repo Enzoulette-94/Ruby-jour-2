@@ -2,7 +2,7 @@ puts"donne moi un nombre"
 print"-->"
 number_choose = gets.chomp.to_i
 
-1. upto (number_choose) do |i|
+0. upto (number_choose) do |i|
     puts i
 end
 #1. commence à 1

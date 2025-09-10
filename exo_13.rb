@@ -1,9 +1,9 @@
 
 mail = []
 
-51.times do |i|
+50.times do |i|
 #oublie pas d'encadrer le i a chaque fois
-mail << "jean.dupont.#{i}@email.fr"
+mail << "jean.dupont.#{i+1}@email.fr"
 end 
 
 # << inserer dans le tableau

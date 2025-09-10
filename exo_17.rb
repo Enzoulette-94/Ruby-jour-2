@@ -6,11 +6,8 @@ if number_étages > 25 # cas ou c'est superieur à 25
 else
     
 number_étages <= 25
-    1.upto(number_étages) do |i|
-    espace = " " * (number_étages - i)  
-    brique = "#" * i 
-    puts espace + brique * 2 # en multipliant par 2 je cherche l'effet miroir 
-    
+    0.upto(number_étages) do |i|
+    puts " " * (number_étages - i) + "#" + "#" * i  * 2
 end
 puts "t'as vu la bete de pyramide d'egypte?!"
 end
